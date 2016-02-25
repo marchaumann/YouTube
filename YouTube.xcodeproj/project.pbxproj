@@ -14,6 +14,10 @@
 		C9411DA41C7E9B8600E3FE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9411DA21C7E9B8600E3FE72 /* LaunchScreen.storyboard */; };
 		C9411DAF1C7E9B8600E3FE72 /* YouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9411DAE1C7E9B8600E3FE72 /* YouTubeTests.swift */; };
 		C9411DBA1C7E9B8600E3FE72 /* YouTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9411DB91C7E9B8600E3FE72 /* YouTubeUITests.swift */; };
+		C9411DC81C7E9BD600E3FE72 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9411DC71C7E9BD600E3FE72 /* MenuViewController.swift */; };
+		C9411DCA1C7E9BEC00E3FE72 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9411DC91C7E9BEC00E3FE72 /* FeedViewController.swift */; };
+		C9411DCC1C7E9BF600E3FE72 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9411DCB1C7E9BF600E3FE72 /* HamburgerViewController.swift */; };
+		C9411DCE1C7EB15100E3FE72 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9411DCD1C7EB15100E3FE72 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C9411DB51C7E9B8600E3FE72 /* YouTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9411DB91C7E9B8600E3FE72 /* YouTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeUITests.swift; sourceTree = "<group>"; };
 		C9411DBB1C7E9B8600E3FE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9411DC71C7E9BD600E3FE72 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C9411DC91C7E9BEC00E3FE72 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C9411DCB1C7E9BF600E3FE72 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		C9411DCD1C7EB15100E3FE72 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				C9411D991C7E9B8600E3FE72 /* AppDelegate.swift */,
 				C9411D9B1C7E9B8600E3FE72 /* ViewController.swift */,
 				C9411D9D1C7E9B8600E3FE72 /* Main.storyboard */,
+				C9411DC71C7E9BD600E3FE72 /* MenuViewController.swift */,
+				C9411DC91C7E9BEC00E3FE72 /* FeedViewController.swift */,
+				C9411DCB1C7E9BF600E3FE72 /* HamburgerViewController.swift */,
+				C9411DCD1C7EB15100E3FE72 /* Common.swift */,
 				C9411DA01C7E9B8600E3FE72 /* Assets.xcassets */,
 				C9411DA21C7E9B8600E3FE72 /* LaunchScreen.storyboard */,
 				C9411DA51C7E9B8600E3FE72 /* Info.plist */,
@@ -257,6 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9411D9C1C7E9B8600E3FE72 /* ViewController.swift in Sources */,
+				C9411DC81C7E9BD600E3FE72 /* MenuViewController.swift in Sources */,
+				C9411DCA1C7E9BEC00E3FE72 /* FeedViewController.swift in Sources */,
+				C9411DCC1C7E9BF600E3FE72 /* HamburgerViewController.swift in Sources */,
+				C9411DCE1C7EB15100E3FE72 /* Common.swift in Sources */,
 				C9411D9A1C7E9B8600E3FE72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
